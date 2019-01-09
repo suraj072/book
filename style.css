@@ -1,0 +1,88 @@
+
+#cards1 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 15px; 
+    transition: all .5s;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 5px grey;
+    transform: scale(1.1);
+}
+
+.cards2 {
+    background: red;
+}
+
+.card-title:hover {
+    color:rgb(253, 253, 253);
+    transition-duration: .2s; 
+}
+
+#spacer1 {
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+#cards2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#spacer2 {
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    color: blueviolet;
+}
+
+#spacer-content {
+    height: 500px;
+}
+
+#prevoius-next {
+    justify-content: end;
+}
+
+.book-href {
+    display: inline-block;
+    border:2px solid red;
+    padding: 120px 90px 120px 90px;
+    margin: 10px;
+}
+
+.book-href:hover {
+    box-shadow: 4px 4px 5px grey;
+}
+
+#header {
+    height: 150px;
+    padding: 40px;
+    background: rgb(25, 104, 114);
+    text-align:center;
+}
+
+@media screen and (max-width: 400px) {
+   .book-href{
+       padding: 200px;
+   }
+  }
+  .btn-sub{
+    color:white;
+    border: 0;
+    border-radius: 20px;
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    box-shadow: 3px 3px 3px grey;
+    font-weight: bold;
+    background-color: rgb(62, 62, 190);
+  }
