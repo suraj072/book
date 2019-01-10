@@ -52,29 +52,27 @@
     justify-content: end;
 }
 
-.book-href {
-    display: inline-block;
-    border:2px solid red;
-    padding: 120px 90px 120px 90px;
-    margin: 10px;
-}
-
-.book-href:hover {
-    box-shadow: 4px 4px 5px grey;
-}
-
 #header {
-    height: 250px;
+    height: 150px;
     padding: 40px;
     background: rgb(25, 104, 114);
     text-align:center;
 }
+.grid {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr; 
+    grid-gap: 10px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    grid-row-start: auto;
+    font-weight: bold;
+}
 
-@media screen and (max-width: 400px) {
-   .book-href{
-       padding: 200px;
-   }
-  }
+.book-img:hover {
+    box-shadow: 2px 4px 4px grey;
+}
+
   .btn-sub{
     color:white;
     border: 0;
@@ -86,3 +84,38 @@
     font-weight: bold;
     background-color: rgb(62, 62, 190);
   }
+
+  .footer {
+      text-align: center;
+  }
+
+  .heart-symbol:hover{
+      width: 20px;
+  }
+
+   @media screen and (max-width: 800px) {
+       .grid{
+           grid-template-columns: 1fr 1fr;
+       }
+   }
+
+    
+   @media screen and (max-width: 500px) {
+    #header{
+        height: 220px;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        margin: 0px 0px 0px 100px;
+        background-color: #fff;
+        width: 230px;
+        height: 400px;
+        overflow-y: scroll;
+        
+    }
+  
+    .book1{
+        color: purple;
+        font-weight: bold;
+    }
+}
