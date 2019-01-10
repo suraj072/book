@@ -2,10 +2,20 @@
 #cards1 {
     display:flex;
     flex-wrap: wrap;
+    color: white;
+    font-style: italic;
     justify-content: center;
+    cursor: pointer;
 }
 
+b:hover{
+    transition:.3s;
+    font-weight:bold;
+    margin:10px 0px 0px 10px;
+    color: yellow;
+}
 .card{
+    color:white;
     margin: 15px; 
     transition: all .5s;
 }
@@ -20,7 +30,7 @@
 }
 
 .card-title:hover {
-    color:rgb(253, 253, 253);
+    color: grey;
     transition-duration: .2s; 
 }
 
@@ -55,7 +65,8 @@
 #header {
     height: 150px;
     padding: 40px;
-    background: rgb(25, 104, 114);
+    background: pink;
+    background-image:linear-gradient(to top, pink,rgb(36, 203, 233));
     text-align:center;
 }
 .grid {
@@ -102,8 +113,7 @@
     
    @media screen and (max-width: 500px) {
     #header{
-        height: 230px;
-        padding: 30px;
+        height: 220px;
     }
     .grid{
         grid-template-columns: 1fr;
