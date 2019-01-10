@@ -103,6 +103,7 @@
    @media screen and (max-width: 500px) {
     #header{
         height: 230px;
+        padding: 30px;
     }
     .grid{
         grid-template-columns: 1fr;
