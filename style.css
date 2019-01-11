@@ -79,6 +79,18 @@ b:hover{
     grid-row-start: auto;
     font-weight: bold;
 }
+.img-a{
+    text-decoration: none;
+    color: black;
+}
+.img-a:hover{
+    text-decoration: none;
+    color:grey
+}
+/* .book-img{
+    width: 10rem;
+    height: 15rem;
+} */
 
 .book-img:hover {
     box-shadow: 2px 4px 4px grey;
