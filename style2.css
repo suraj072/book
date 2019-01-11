@@ -4,7 +4,9 @@ html{
     background-color:#f9f7f7
     
 }
-
+.spacer{
+height:50px;
+}
 .container {
 display: inline-block;
 top: 50%;
